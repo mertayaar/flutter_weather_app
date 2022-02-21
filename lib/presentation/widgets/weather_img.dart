@@ -1,9 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../blocs/WeatherBloc/weather_bloc.dart';
 
+part of '../weather_main.dart';
 class WeatherImage extends StatelessWidget {
   const WeatherImage({ Key? key }) : super(key: key);
 

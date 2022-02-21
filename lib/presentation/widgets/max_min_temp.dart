@@ -1,14 +1,11 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../blocs/WeatherBloc/weather_bloc.dart';
+part of '../weather_main.dart';
 
 class MaxMinTemp extends StatelessWidget {
-  const MaxMinTemp({ Key? key }) : super(key: key);
+  const MaxMinTemp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-   final _weatherBloc = BlocProvider.of<WeatherBloc>(context);
+    final _weatherBloc = BlocProvider.of<WeatherBloc>(context);
     return BlocBuilder(
       bloc: _weatherBloc,
       builder: (context, WeatherState state) {

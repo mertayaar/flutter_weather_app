@@ -4,15 +4,18 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:weather_app/presentation/widgets/gradient_container.dart';
-import 'package:weather_app/presentation/widgets/last_update.dart';
-import 'package:weather_app/presentation/widgets/location.dart';
-import 'package:weather_app/presentation/widgets/max_min_temp.dart';
-import 'package:weather_app/presentation/widgets/weather_img.dart';
+
 
 import '../blocs/ThemaBloc/tema_bloc.dart';
 import '../blocs/WeatherBloc/weather_bloc.dart';
-import 'widgets/select_city.dart';
+import 'select_city.dart';
+
+part 'widgets/last_update.dart';
+part 'widgets/location.dart';
+part 'widgets/weather_img.dart';
+part 'widgets/max_min_temp.dart';
 
 class WeatherMainPage extends StatelessWidget {
   String? selectedCity;

@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+part of '../weather_main.dart';
 
-import '../../blocs/WeatherBloc/weather_bloc.dart';
 
 class LastUpdate extends StatelessWidget {
   const LastUpdate({Key? key}) : super(key: key);

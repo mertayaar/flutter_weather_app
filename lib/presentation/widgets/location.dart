@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../weather_main.dart';
 
 class LocationWidget extends StatelessWidget {
   final String? cityName;
